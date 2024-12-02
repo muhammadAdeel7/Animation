@@ -1,0 +1,27 @@
+body{
+    background-image: url(/wp12321722.gif);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:0%;
+    background-size: 100% 100%;
+    /* background-size:0cqmin; */
+}
+@keyframes side-by {
+    0%{
+        left: -15%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+div#walkingman{
+/* height: 200px;
+width: 200px; */
+animation-name: side-by;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count:infinite;
+animation-delay: 0ms;
+position: absolute;
+top: 330px;
+}
